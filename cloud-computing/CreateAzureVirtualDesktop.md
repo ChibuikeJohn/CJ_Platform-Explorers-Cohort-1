@@ -11,6 +11,7 @@ This is to allow Remote Work Solutions for all Contoso employee. This will allow
 ## Steps To Take:
 # 1. Create Azure Resource Group for Contoso
 Azure Resource Group (RG), is like bucket or container for all resources within the Azure environment. I named it Chibuike RG 
+
 a. Type Resource Group on the search button or select Resource Group from the list of services and press enter 
 
 ![Azure Resource Group Creation  _ 1](https://github.com/user-attachments/assets/0b5638fe-3520-4add-9efe-bcaf2c72c95d)
