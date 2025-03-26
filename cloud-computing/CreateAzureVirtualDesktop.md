@@ -101,6 +101,8 @@ Note: When you are creating your Host Pool, you can select either "Remote Deskto
 
 
 ## Steps To Create Host Pool
+<br/> A host pool is a collection of Azure virtual machines that are registered to Azure Virtual Desktop as session hosts. A host pool can be one of two types: Personal or Pooled.
+<br/> Follow the steps below to create your Host Pool. 
 
 a.    Go to all services on Azure Portal, open Azure Virtual Desktop, under Azure Virtual Desktop, Select Host Pool and Click Create button to begin...
 
@@ -147,6 +149,7 @@ e.      Under Workspace tab, select No for Register App Group. ( Note: the Appli
 f.     Under Review & Create tab, go through all the selected details and click Create button 
 
 ![AVD_ HostPool _ 11](https://github.com/user-attachments/assets/fcf0b69a-634c-493d-90a1-e9e7581f8770)
+
 
 
 g.    Now allow the deployment process to complete .... You can see that the Host Pool is now created..
