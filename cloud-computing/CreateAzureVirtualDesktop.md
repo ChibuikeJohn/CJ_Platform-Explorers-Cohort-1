@@ -92,12 +92,14 @@ For us to achieve this, we need to do these 3 things
 * Create Workspace
 
 Note: When you are creating your Host Pool, you can select either "Remote Desktop" or "Remote App."
-Remote Desktop This is the full desktop within Azure, where you can log on and do your work on the full Remote Desktop
-Remote App: This gives you access to only appliction on the Azure, which can be pushed to the individual computer. You only have access to this app on Azure and not the full desktop. 
+<br/> Remote Desktop: This is the full desktop within Azure, where you can log on and do your work on the full Remote Desktop
+<br/> Remote App: This gives you access to only appliction on the Azure, which can be pushed to the individual computer. You only have access to this app on Azure and not the full desktop. 
+<br/> 
+Also, Host Pool Type, can be Pooled or Personal. 
+<br/> Personal: This is for one person having full access to the resources 
+<br/> Pooled: This allows many users to share and access the full resources 
 
-Also, Host Pool Type, can be Pooled or Personal 
-Personal: This is for one person having full access to the resources 
-Pooled: This allows many users to share and access the full resources 
+
 
 
 
