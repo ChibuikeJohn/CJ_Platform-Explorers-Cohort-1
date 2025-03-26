@@ -107,7 +107,7 @@ a.    Go to all services on Azure Portal, open Azure Virtual Desktop, under Azur
 ![AVD_ HostPool _ 1](https://github.com/user-attachments/assets/9f281398-d17a-41ca-9bbb-167e7a4975fe)
 
 
-b.    Under Basic tab, select your Resource Group, type your Host Pool name and select your location e.g East US 2 or West Europe. Select Desktop on the preferred app group type, host pooled type, select Pooled and Load balancing, select Breadth first or Depth first, the click Next
+b.    Under Basic tab, select your Resource Group, type your Host Pool name and select your location e.g East US 2 or West Europe. <br/> Select Desktop on the preferred app group type, <br/> For host pooled type, select Pooled and Load balancing, select Breadth first or Depth first, then click Next
 
 ![AVD_ HostPool _ 2](https://github.com/user-attachments/assets/acea3c82-a796-4262-bc41-afbe03d8a524)
 
