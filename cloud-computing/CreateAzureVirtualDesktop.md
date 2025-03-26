@@ -1,4 +1,4 @@
-ca## CREATE AZURE VIRTUAL DESKTOP FOR 50 EMPLOYEE AT CONTOSO
+## CREATE AZURE VIRTUAL DESKTOP FOR 50 EMPLOYEE AT CONTOSO
 
 ### What Is Azure Virtual Desktop?
 Azure Virtual Desktop (AVD), formerly known as Windows Virtual Desktop, is a cloud-based desktop and application virtualization service that allows users to access their virtual desktops and applications from anywhere, on any device. Key benefits include enhanced security, flexible remote work, and cost optimization.
