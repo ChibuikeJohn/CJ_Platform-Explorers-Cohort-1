@@ -100,6 +100,77 @@ Note: When you are creating your Host Pool, you can select either "Remote Deskto
 <br/> Pooled: This allows many users to share and access the full resources 
 
 
+## Steps To Create Host Pool
+
+a.    Go to all services on Azure Portal, open Azure Virtual Desktop, under Azure Virtual Desktop, Select Host Pool and Click Create button to begin...
+
+![AVD_ HostPool _ 1](https://github.com/user-attachments/assets/9f281398-d17a-41ca-9bbb-167e7a4975fe)
+
+
+b.    Under Basic tab, select your Resource Group, type your Host Pool name and select your location e.g East US 2 or West Europe. Select Desktop on the preferred app group type, host pooled type, select Pooled and Load balancing, select Breadth first or Depth first, the click Next
+
+![AVD_ HostPool _ 2](https://github.com/user-attachments/assets/acea3c82-a796-4262-bc41-afbe03d8a524)
+
+
+c.     Under Session Tab, select Yes  for add virtual machine, add name for the virtual Machine, selcct the location (ensure same location all through ), follow the steps as shown below... 
+
+![AVD_ HostPool _ 3](https://github.com/user-attachments/assets/c0f3301a-bdbe-4470-a2af-01b717ee3744)
+
+
+
+d.      Scroll down to Select Virtual Machine Size, you can either user the default size provided or click to select another sizes for your RAM and CPU and Storage etc. 
+        <br/> Select the no of VM needed (for the demo, I used 1 VM), select the Virtual Network and allow the default for others 
+        <br/> Under domain name, select Microsoft Entra ID.. And the create a Username and password for your Virtual Machine Admnistrator Account.
+        <br/> Click Next to Workspace tab
+
+![AVD_ HostPool _ 6](https://github.com/user-attachments/assets/47215d8e-149a-49f3-bc08-102146947505)
+
+
+![AVD_ HostPool _ 7](https://github.com/user-attachments/assets/299f0c9b-6588-481b-9fcf-4881c777d2c7)
+
+
+![AVD_ HostPool _ 8](https://github.com/user-attachments/assets/1393be67-519e-4fa8-8cc2-8c94d9632c27)
+
+
+
+e.      Under Workspace tab, select No for Register App Group. ( Note: the Application group shall be registered later on this deployment process)  
+        <br/> Click Next to Advance Tab and Next to Tag and Next 
+
+
+![AVD_ HostPool _ 9](https://github.com/user-attachments/assets/4ac19ae8-8308-4743-8f39-b49bbd012f73)
+
+
+![AVD_ HostPool _ 10](https://github.com/user-attachments/assets/853939dd-c02f-4d72-879a-8451c6421821)
+
+
+
+f.     Under Review & Create tab, go through all the selected details and click Create button 
+
+![AVD_ HostPool _ 11](https://github.com/user-attachments/assets/fcf0b69a-634c-493d-90a1-e9e7581f8770)
+
+
+g.    Now allow the deployment process to complete .... You can see that the Host Pool is now created..
+
+
+![AVD_HostPool _ Completed](https://github.com/user-attachments/assets/121720be-c04a-4c15-a70a-e4259200becb)
+
+
+![AVD_HostPool_Completed 2](https://github.com/user-attachments/assets/c59c5450-fd87-4688-a87c-147fd5e5d15e)
+
+
+![AVD_HostPool_Completed3](https://github.com/user-attachments/assets/b2e7c78a-0266-4845-a33f-35a0a97bd7f8)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
